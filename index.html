@@ -1,48 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Email Banner Template</title>
     <style>
-        /* Basic reset for email clients */
-        body { margin: 0; padding: 0; width: 100% !important; background-color: #f4f4f4; }
-        img {src:"https://images.unsplash.com/photo-1774893582522-c8e9c0aeaec9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+        /* RESET STYLES */
+        body { margin: 0; padding: 0; min-width: 100%; width: 100% !important; background-color: #f0f2f5; }
+        img { border: 0; line-height: 100%; outline: none; text-decoration: none; display: block; }
         table { border-collapse: collapse !important; }
+        
+        /* RESPONSIVE STYLES */
+        @media screen and (max-width: 600px) {
+            .content { width: 100% !important; }
+            .mobile-padding { padding: 25px !important; }
+            .banner-img { width: 100% !important; height: auto !important; }
+        }
     </style>
 </head>
-<body>
-    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f4f4f4;">
+<body style="margin: 0; padding: 0; background-color: #f0f2f5;">
+
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#f0f2f5">
         <tr>
             <td align="center" style="padding: 20px 0;">
                 
-                <table border="0" cellpadding="0" cellspacing="0" width="600" style="background-color: #ffffff; border-radius: 8px; overflow: hidden;">
+                <table class="content" width="600" border="0" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
                     
                     <tr>
+                        <td align="center" style="padding: 25px 0;">
+                            <span style="font-family: 'Segoe UI', Arial, sans-serif; font-weight: bold; font-size: 20px; color: #333333; letter-spacing: 1px;">DE_WAYMEN</span>
+                        </td>
+                    </tr>
+
+                    <tr>
                         <td align="center">
-                            <img src="https://via.placeholder.com/600x200" alt="Hero Image" width="600" style="display: block; width: 100%; max-width: 600px;">
+                            <a href="#" target="_blank">
+                                <img src="https://images.unsplash.com/photo-1774893582522-c8e9c0aeaec9?q=80&w=1170&auto=format&fit=crop" 
+                                     alt="Email Banner" 
+                                     width="600" 
+                                     class="banner-img"
+                                     style="width: 100%; max-width: 600px; height: auto; display: block;">
+                            </a>
                         </td>
                     </tr>
 
                     <tr>
-                        <td style="padding: 40px; color: #333333; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px;">
-                            <h1 style="margin: 0 0 20px 0; font-size: 24px;">Welcome to the Team!</h1>
-                            <p style="margin: 0;">We are thrilled to have a new developer on board. This template was built using table logic to ensure it looks great in every inbox.</p>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td align="center" style="padding: 0 40px 40px 40px;">
-                            <table border="0" cellspacing="0" cellpadding="0">
+                        <td class="mobile-padding" style="padding: 45px 40px; text-align: left;">
+                            <h1 style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 26px; color: #222222; margin: 0 0 20px 0; line-height: 1.2;">
+                                Modern Solutions for Modern Problems
+                            </h1>
+                            <p style="font-family: Arial, sans-serif; font-size: 16px; color: #666666; line-height: 25px; margin-bottom: 30px;">
+                                This template is built with a table-based architecture to ensure it renders perfectly across Gmail, Outlook, and mobile devices. By using your custom Unsplash banner, we’ve created a visually striking entry point for your message.
+                            </p>
+                            
+                            <table border="0" cellspacing="0" cellpadding="0" align="left">
                                 <tr>
-                                    <td align="center" bgcolor="#3498db" style="border-radius: 5px;">
-                                        <a href="#" target="_blank" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; padding: 15px 25px; display: inline-block; font-weight: bold;">Get Started</a>
+                                    <td align="center" bgcolor="#2563eb" style="border-radius: 6px;">
+                                        <a href="#" target="_blank" style="padding: 14px 28px; font-family: Arial, sans-serif; font-size: 16px; color: #ffffff; text-decoration: none; display: inline-block; font-weight: 600;">View Portfolio</a>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
 
+                    <tr>
+                        <td style="padding: 0 40px;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-top: 1px solid #eeeeee;">
+                                <tr><td></td></tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="mobile-padding" style="padding: 30px 40px; background-color: #fcfcfc; text-align: center;">
+                            <p style="font-family: Arial, sans-serif; font-size: 13px; color: #999999; margin: 0 0 10px 0;">
+                                &copy; 2024 De_Waymen Development. All rights reserved.
+                            </p>
+                            <p style="font-family: Arial, sans-serif; font-size: 12px; color: #999999;">
+                                <a href="#" style="color: #2563eb; text-decoration: none;">Privacy Policy</a> | 
+                                <a href="#" style="color: #2563eb; text-decoration: none;">Unsubscribe</a>
+                            </p>
+                        </td>
+                    </tr>
+
                 </table> </td>
         </tr>
-    </table> </body>
+    </table>
+
+</body>
 </html>
